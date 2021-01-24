@@ -3,10 +3,11 @@ package chord
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/arriqaaq/chord/models"
 	"math/big"
 	"reflect"
 	"testing"
+
+	models "github.com/mmirko/chordmodels"
 )
 
 func TestNewFingerTable(t *testing.T) {

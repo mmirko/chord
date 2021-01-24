@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/arriqaaq/chord/models"
+	models "github.com/mmirko/chordmodels"
 )
 
 func TestNewMapStore(t *testing.T) {

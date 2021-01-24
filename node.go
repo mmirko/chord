@@ -3,13 +3,14 @@ package chord
 import (
 	"crypto/sha1"
 	"fmt"
-	"github.com/arriqaaq/chord/models"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
 	"hash"
 	"math/big"
 	"sync"
 	"time"
+
+	models "github.com/mmirko/chordmodels"
+	"golang.org/x/net/context"
+	"google.golang.org/grpc"
 )
 
 func DefaultConfig() *Config {

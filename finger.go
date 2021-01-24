@@ -2,8 +2,9 @@ package chord
 
 import (
 	"fmt"
-	"github.com/arriqaaq/chord/models"
 	"math/big"
+
+	models "github.com/mmirko/chordmodels"
 )
 
 type fingerTable []*fingerEntry

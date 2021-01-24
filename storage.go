@@ -1,9 +1,9 @@
 package chord
 
 import (
-	// "errors"
-	"github.com/arriqaaq/chord/models"
 	"hash"
+
+	models "github.com/mmirko/chordmodels"
 	// "math/big"
 )
 

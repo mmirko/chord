@@ -3,13 +3,14 @@ package chord
 import (
 	"errors"
 	"fmt"
-	"github.com/arriqaaq/chord/models"
-	"golang.org/x/net/context"
-	"google.golang.org/grpc"
 	"net"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	models "github.com/mmirko/chordmodels"
+	"golang.org/x/net/context"
+	"google.golang.org/grpc"
 )
 
 var (

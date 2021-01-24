@@ -1,12 +1,14 @@
 package main
 
 import (
-	"github.com/arriqaaq/chord"
-	"github.com/arriqaaq/chord/models"
 	"log"
 	"math/big"
 	"os"
 	"os/signal"
+
+	"github.com/arriqaaq/chord"
+	"github.com/arriqaaq/chord/models"
+
 	// "strconv"
 	"time"
 )

@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/arriqaaq/chord"
-	"github.com/arriqaaq/chord/models"
+	"github.com/mmirko/chord"
+	"github.com/mmirko/chordmodels"
 )
 
 func createNode(id string, addr string, sister *models.Node) (*chord.Node, error) {

@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/arriqaaq/chord"
-	"github.com/arriqaaq/chord/models"
+	"github.com/mmirko/chord"
+	"github.com/mmirko/chordmodels"
 
 	// "strconv"
 	"time"
